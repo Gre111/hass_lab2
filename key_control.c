@@ -107,6 +107,7 @@ void key1_check()
             hal_gpio_output_low(&redled);//上升沿熄灭LED
         }
     }
+    
 }
 int application_start(int argc, char *argv[])
 {
